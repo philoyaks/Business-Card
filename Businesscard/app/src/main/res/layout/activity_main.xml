@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arc"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="300dp"
+        android:paddingLeft="6dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Name:OYALEKE PHILIP"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="320dp"
+        android:paddingLeft="6dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="PHONE NUMBER:08101245168"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="340dp"
+        android:paddingLeft="6dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Job description:Beginner Programmer(Java,C++)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="360dp"
+        android:paddingLeft="6dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Oficce Adress : 23, adokeole ,ionnjeit,us."
+        />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Viewworks" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="click the button to view works done"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+
+
+</RelativeLayout>
